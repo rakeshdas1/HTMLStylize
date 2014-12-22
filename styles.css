@@ -1,6 +1,7 @@
 *{
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #FF5442;
+    color: #ecf0f1;
 }
 #header{
     height: 50px;
@@ -15,5 +16,18 @@
     list-style: none;
     display: inline-block;
     text-align: center;
-    
+    /*border-width: 10px;*/
+}
+#headerlinks ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+#headerLinks:hover{
+    background-color: #505050;/*:#e74c3c;*/
+    border-color: #e74c3c
+    color: black;
+}
+#headerLinks:link{
+    text-decoration: none;
+    color: #ecf0f1;
 }
