@@ -1,0 +1,19 @@
+*{
+    font-family: sans-serif;
+    background-color: #FF5442;
+}
+#header{
+    height: 50px;
+    width: auto;
+    overflow: hidden;
+    background-color: #FF5442;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px #e74c3c; 
+}
+#headerLinks li{
+    color: black;
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    
+}
