@@ -19,6 +19,8 @@
     border: 5px solid red;
     padding-left: 10%;
     padding-right: 10%;
+    width: 10%;
+    height: 10%
     /*border-width: 10px;*/
 }
 #headerlinks ul{
@@ -26,9 +28,8 @@
     margin-right: auto;
 }
 #headerLinks:hover{
-    background-color: #f57c00;/*:#e74c3c;*/
-    border-color: #e74c3c
-    color: black;
+    background-color: #f57c00;
+    border-color: #e74c3c;
 }
 #headerLinks:link{
     text-decoration: none;
