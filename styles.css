@@ -1,21 +1,24 @@
 *{
     font-family: 'Roboto', sans-serif;
-    background-color: #FF5442;
+    background-color: #ff9800;
     color: #ecf0f1;
 }
 #header{
     height: 50px;
     width: auto;
     overflow: hidden;
-    background-color: #FF5442;
+    background-color: #ff9800;
     margin-top: 20px;
-    box-shadow: 10px 10px 10px #e74c3c; 
+    box-shadow: 10px 10px 10px #f57c00;
 }
 #headerLinks li{
     color: black;
     list-style: none;
     display: inline-block;
     text-align: center;
+    border: 5px solid red;
+    padding-left: 10%;
+    padding-right: 10%;
     /*border-width: 10px;*/
 }
 #headerlinks ul{
@@ -23,7 +26,7 @@
     margin-right: auto;
 }
 #headerLinks:hover{
-    background-color: #505050;/*:#e74c3c;*/
+    background-color: #f57c00;/*:#e74c3c;*/
     border-color: #e74c3c
     color: black;
 }
