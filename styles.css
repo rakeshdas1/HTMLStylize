@@ -17,10 +17,10 @@
     display: inline-block;
     text-align: center;
     border: 5px solid red;
-    padding-left: 10%;
+    /*padding-left: 10%;
     padding-right: 10%;
     width: 10%;
-    height: 10%
+    height: 10%*/
     /*border-width: 10px;*/
 }
 #headerlinks ul{
