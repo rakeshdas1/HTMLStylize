@@ -17,22 +17,21 @@
     display: inline-block;
     text-align: center;
     border: 2px solid red;
-    padding-bottom: 100px;
-    /*padding-left: 10%;
-    padding-right: 10%;
-    width: 10%;
-    height: 10%*/
-    /*border-width: 10px;*/
+    width: 100px;
 }
 #headerlinks ul{
     margin-left: auto;
     margin-right: auto;
 }
-#headerLinks:hover{
+li:hover{
     background-color: #f57c00;
     border-color: #e74c3c;
 }
-#headerLinks:link{
+a:hover{
+    background-color: #f57c00;
+    border-color: #e74c3c;
+}
+a:link{
     text-decoration: none;
     color: #ecf0f1;
 }
