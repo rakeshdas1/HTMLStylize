@@ -1,6 +1,9 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
+html.hidden{
+    display: none;
+}
 body{
     background-color: #ff9800;
 }
