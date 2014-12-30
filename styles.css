@@ -6,6 +6,7 @@ html.hidden{
 }
 body{
     background-color: #ff9800;
+    color: #ecf0f1;
 }
 
 #header{
@@ -21,7 +22,7 @@ body{
     list-style: none;
     display: inline-block;
     text-align: center;
-    border: 2px solid red;
+    //border: 2px solid red;
     width: 100px;
 }
 #headerLinks li a{
@@ -33,13 +34,21 @@ body{
 }
 li:hover{
     background-color: #f57c00;
-    border-color: #e74c3c;
+    //border-color: #e74c3c;
 }
 a:hover{
     background-color: #f57c00;
-    border-color: #e74c3c;
+    //border-color: #e74c3c;
 }
 a:link{
     text-decoration: none;
     color: #ecf0f1;
 }
+#content{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+#content form{
+    margin-left: 60% !important;
+}
+
